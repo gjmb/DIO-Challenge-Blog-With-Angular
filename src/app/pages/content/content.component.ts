@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import {dataFake} from '../../data/dataFake';
 
 @Component({
   selector: 'app-content',
@@ -13,6 +14,7 @@ export class ContentComponent implements OnInit {
   contentTitle:string="";
   @Input()
   contentPost:string="";
+  private id:string | null="";
 
   constructor(private route:ActivatedRoute){
 
@@ -20,9 +22,21 @@ export class ContentComponent implements OnInit {
 
   ngOnInit(): void {
     this.route.paramMap.subscribe( value =>
-      console.log(value.get("id"))
-
+      this.id = value.get("id")
     )
+
+    this.setContentValues(this.id);
+  }
+
+  setContentValues(id:string | null){
+    const result = dataFake.filter(post => post.id == id)[0]
+
+
+    if(result){
+      this.coverPicture=result.picture;
+      this.contentTitle=result.title;
+      this.contentPost=result.post;
+    }
   }
 
 }
