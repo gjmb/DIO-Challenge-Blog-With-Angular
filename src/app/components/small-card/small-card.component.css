@@ -1,0 +1,48 @@
+.small-card-container{
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+
+
+
+.small-card-content {
+  display: flex;
+  flex-direction: row;
+
+  width: 500px;
+  height: 200px;
+  padding: 2rem 0;
+
+
+}
+
+
+.small-card-post-picture > img{
+
+  height: 150px;
+
+
+
+}
+
+.small-card-post-title{
+  display: flex;
+  align-items: center;
+}
+
+.small-card-post-title > h1{
+  font-size: 1.5rem;
+  padding: 1rem;
+
+
+}
+
+
+
+.small-card-post-preview-text > p > a{
+  color: grey;
+}
+

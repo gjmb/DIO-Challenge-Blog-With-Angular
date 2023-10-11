@@ -1,5 +1,5 @@
 .big-card-container {
-  border: solid 1px white;
+
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -11,8 +11,7 @@
 
 
 .big-card-post-picture > img{
-  max-width: 100%;
-  height: 250px;
+  height: 240px;
 
 }
 
