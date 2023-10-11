@@ -1,0 +1,29 @@
+.big-card-container {
+  border: solid 1px white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 500px;
+  height: 600px;
+  padding: 2rem;
+
+}
+
+
+.big-card-post-picture > img{
+  max-width: 100%;
+  height: 250px;
+
+}
+
+.big-card-post-title > h1{
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+
+
+
+.big-card-post-preview-text > p > a{
+  color: grey;
+}
+

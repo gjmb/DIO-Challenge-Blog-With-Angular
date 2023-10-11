@@ -6,5 +6,10 @@
   font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
   background-color: #191A1C;
+  color:white;
 
+}
+
+a{
+  text-decoration: none;
 }
