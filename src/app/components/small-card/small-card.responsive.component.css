@@ -1,0 +1,19 @@
+
+@media screen and (min-width: 320px) {
+  .small-card-content {
+    padding: 2rem;
+  }
+}
+
+
+@media screen and (min-width: 576px) {
+  .small-card-content {
+    padding: 2rem 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .small-card-content {
+    padding: 2rem 0;
+  }
+}
