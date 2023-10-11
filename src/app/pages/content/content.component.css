@@ -1,0 +1,27 @@
+.content-container{
+  border: 1px solid white;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+
+
+.cover-content > img{
+  border-radius: 10px;
+  border: 5px solid white;
+  width: 600px;
+  height: 200px;
+
+}
+
+.post-content{
+  padding: 1rem;
+}
+
+.post-content > p {
+  color: gray
+}

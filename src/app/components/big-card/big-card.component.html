@@ -4,10 +4,10 @@
     <img src="{{ pictureCover }}" alt="post picture" srcset="">
   </div>
   <div class="big-card-post-title">
-    <h1><a href="#">{{ postTitle }}</a></h1>
+    <h1><a [routerLink]="['content', id]">{{ postTitle }}</a></h1>
   </div>
   <div class="big-card-post-preview-text">
-    <p> <a href="#"> {{ postPreviewText }} </a> </p>
+    <p> <a [routerLink]="['content', id]"> {{ postPreviewText }} </a> </p>
   </div>
 
 

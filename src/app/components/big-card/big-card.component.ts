@@ -12,6 +12,8 @@ export class BigCardComponent implements OnInit {
   postTitle:string="";
   @Input()
   postPreviewText:string="";
+  @Input()
+  id:string="";
 
   constructor(){
 
